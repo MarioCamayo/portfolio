@@ -24,6 +24,10 @@
     z-index: -1;
 }
 
+.about-profile{
+    border-radius: 50%;
+}   
+
 .about-sections{
     display: flex;
     gap: 80px;

@@ -4,12 +4,11 @@
   align-items: center;
   gap:35px;
 }
-img{
-    border-radius: 50%;
-}
 
 .hero img{
   margin-top: 150px;
+  border-radius: 50%;
+  width: 300px;
 }
 
 .hero h1{

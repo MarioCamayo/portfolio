@@ -1,4 +1,5 @@
 import  {services_data} from '../../assets/services_data.js'
+import  flechaDerecha from '../../assets/flecha-derecha.svg'
 import './services.css'
 
 const Services = () => {
@@ -16,7 +17,7 @@ const Services = () => {
               <p> {service.s_desc} </p>
               <div className='services-readmore'>
                 <p>Read More</p>
-                <img src="" alt="" />
+                <img src= {flechaDerecha} alt="ícono de flecha derecha" />
               </div>
             </div>
           })}
