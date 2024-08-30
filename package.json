@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s dist -l $PORT"
+    "start": "serve -s dist -s -n -L -p $PORT"
   },
   "dependencies": {
     "react": "^18.3.1",
