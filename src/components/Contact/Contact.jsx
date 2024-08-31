@@ -1,17 +1,18 @@
 import email_icon from "../../assets/email.svg";
 import phone_icon from "../../assets/phone.svg";
 import location_icon from "../../assets/location.svg";
+import "./contact.css";
+
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-title">
-        <h1>Get in touch</h1>
+        <h1>Contáctanos</h1>
         {/* <img src="" alt="" /> */}
       </div>
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Lets talk</h1>
-          {/* <p>Im currently avaliable to take on new projects, so feel free about anything that you want me to work on. You can contact anytime. </p> */}
+          <h1>Hablemos</h1>
           <p>
             Actualmente estoy disponible para asumir nuevos proyectos, así que
             siéntete libre de decirme cualquier cosa en la que quieras que
@@ -33,8 +34,13 @@ const Contact = () => {
           </div>
         </div>
       <form className="contact-right">
-          <label htmlFor="Tu Nombre"></label>
+          <label htmlFor="">Tu Nombre</label>
           <input type="text"  placeholder="Ingresa tu Nombre" name="name"/>
+          <label htmlFor="">Tu Correo</label>
+          <input type="email"  placeholder="Ingresa tu Correo" name="email"/>
+          <label htmlFor="">Escribe tu mensaje aquí</label>
+          <textarea name="message" rows="8" placeholder="Ingresa tu mensage"></textarea>
+          <button className="contact-submit">Envía ahora</button>
       </form>
       </div>
     </div>
