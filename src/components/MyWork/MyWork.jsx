@@ -12,10 +12,17 @@ const MyWork = () => {
         {/* <img src={theme-pattern} alt="" />  */}
       </div>
       <div className="mywork-container">
-        {mywork_data.map((work, id)=>{
-          return <img key={id} src= {work.w_img} alt="imagenes de proyectos" />
-        })}
+        {mywork_data.map((work, id)=>
+
+          (
+            <div key={id}>
+                <img src= {work.w_img} alt="imagenes de proyectos" />
+                <a href='https://reservatucitamedica.vercel.app'>ver</a>
+            </div>
+          )
+        )}
       </div>
+    
       <div className='mywork-showmore'>
          <p>Show More</p>
          <img src= {flechaDerecha} alt="ícono de flecha derecha" />

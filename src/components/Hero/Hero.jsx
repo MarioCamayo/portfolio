@@ -1,5 +1,6 @@
 import  profile_img from '../../assets/IMG_Mario.jpg'
 import './hero.css'
+
 const Hero = () => {
   return (
     <div className='hero'>
