@@ -2,8 +2,8 @@ import About from "./components/About/About"
 import Contact from "./components/Contact/Contact"
 import Hero from "./components/Hero/Hero"
 import MyWork from "./components/MyWork/MyWork"
-import NavBar from "./components/NavBar"
-import Services from "./components/services/Services"
+import NavBar from "./components/NavBar/NavBar"
+// import Services from "./com  ponents/services/Services"
 // import './App.css '
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <NavBar />
         <Hero />
         <About /> 
-        <Services />
+        {/* <Services /> */}
         <MyWork />
         <Contact />
     </div>

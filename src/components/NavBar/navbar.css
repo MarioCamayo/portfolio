@@ -2,26 +2,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 115px;
 }
 
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 30px;
     font-size: 20px;
 }
 
 .nav-connect{
-    padding: 20px 40px;
+    padding: 12px 24px;
     border-radius: 50px;
     cursor: pointer;
     background: linear-gradient(267deg, #DA7C25 0.36%,  #B923E1 102.06%);
-    font-size: 22px;
+    font-size: 20px;
     transition: 0.5s;
 }
-
+.navbar img{
+    max-width: 120px;
+    margin-top: 15px;
+}
 .nav-connect:hover{
+    /* border: 2px solid white; */
   transform: scale(1.05);
+
 }

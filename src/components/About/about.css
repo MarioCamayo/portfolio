@@ -45,7 +45,9 @@
     flex-direction: column;
     gap: 20px;
     font-size: 24px;
-    font-weight: 500;
+    /* font-weight: 700; */
+    line-height: 40px;
+    color: #D8D8D8;    /* font-family:Arial, Helvetica, sans-serif */
 }
 
 .about-skills{
@@ -65,6 +67,10 @@
     min-width: 150px;
     font-size: 24px ;
     font-weight: 500;
+}
+
+.about-skill img{
+    width: 70px;
 }
 
 .about-achievements{
