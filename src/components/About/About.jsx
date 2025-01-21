@@ -16,10 +16,10 @@ import './about.css'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='acerca' className='about'>
         <div className="about-title">
             <h1>Acerca de mí</h1>
-            <img src="" alt="" />
+            {/* <img src="" alt="" /> */}
         </div>
         <div className='about-sections'>
             <div className="about-left">
@@ -41,10 +41,12 @@ const About = () => {
                     <br />
                     <strong> Ecommerce de ropa:</strong> Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras, implementando un flujo completo de compra para los usuarios.
                     </p>
-                </div>
-
-                <div className='about-skills'>
-                    <h2 className='about-skill-title'>Mis Habilidades Técnicas</h2>
+                  </div>
+            </div>
+          </div>
+          <div className='about-skills'>
+                    <h2 className='about-skill-title'>Mis Habilidades</h2>
+                 <div className="about-skill-icons">
                     <div className='about-skill'>
                        <p>HTML</p>
                        <img src={logo_html} alt="logo html" />
@@ -96,9 +98,10 @@ const About = () => {
                       <img src= {logo_scrum} alt="logo_scrum" />
                       {/* <hr style={{width:'50%'}} /> */}
                     </div>
+                  </div>
                 </div>
+         
 
-            </div>
             {/* <div className='about-achievements'>
                 <div className="about-achievement">
                     <h1>10+</h1>
@@ -112,11 +115,11 @@ const About = () => {
                 <hr />
                 <div className="about-achievement">
                     <h1>15+</h1>
+                    </div>
                     <p>HAPPY CLIENTS</p>
                 </div>
 
             </div> */}
-        </div>
             
     </div>
   )
