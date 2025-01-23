@@ -10,6 +10,7 @@ import  logo_scrum from '../../assets/logo_scrum.png'
 import  logo_tailwindcss from '../../assets/logo_tailwindcss.png'
 import  logo_mongodb from '../../assets/logo_mongodb2.png'
 import  logo_bootstrap from '../../assets/logo_bootstrap2.png'
+import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 
 
 import './about.css'
@@ -19,7 +20,7 @@ const About = () => {
     <div id='acerca' className='about'>
         <div className="about-title">
             <h1>Acerca de mí</h1>
-            {/* <img src="" alt="" /> */}
+            <img src= {logo_menu} alt="logo_menu" />
         </div>
         <div className='about-sections'>
             <div className="about-left">
@@ -46,6 +47,7 @@ const About = () => {
           </div>
           <div className='about-skills'>
                     <h2 className='about-skill-title'>Mis Habilidades</h2>
+                    <img className='about-skill-logo' src= {logo_menu} alt="logo_menu" />
                  <div className="about-skill-icons">
                     <div className='about-skill'>
                        <p>HTML</p>

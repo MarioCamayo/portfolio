@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    padding: 50px 0px; 
 }
 
 .about-skill-title{
@@ -144,8 +145,12 @@
 @media(max-width: 768px){
     .about{
         margin: 50px 70px;
+        padding: 15px;
         gap: 80px;
-        align-items: start;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* align-items: start; */
     }
 
     .about-title h1{
@@ -154,8 +159,9 @@
     }
 
     .about-title img{
-        width: 130px;
-        right: -20px;
+        width: 100px;
+        /* margin-right: 0px; */
+        /* right: 20px; */
     }
  
     .about-sections{
@@ -176,6 +182,21 @@
         gap: 20px;
         align-items: center;
   }
+
+  .about-skill-title{
+      font-size: 50px;
+      /* margin-bottom: 0; */
+  }
+
+   .about-skill-logo{
+      width: 100px;
+      margin-top: -25px;
+      margin-left: 70px;
+      margin-bottom: 10px;
+
+  } 
+      
+      
 
   .about-skill p{
       font-size: 18px;

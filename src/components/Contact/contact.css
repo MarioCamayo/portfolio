@@ -126,7 +126,7 @@
   .contact{
     gap: 50px;
     margin: 50px 70px;
-    align-items: start;
+    /* align-items: start; */
   }
 
   .contact-title h1{
@@ -136,8 +136,10 @@
   }
 
   .contact-title img{
-    width: 130px;
-    margin-right: -20px;
+    width: 100px;
+    margin-right: 180px;
+    
+
   }
 
   .contact-section{

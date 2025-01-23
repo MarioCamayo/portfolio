@@ -2,6 +2,7 @@ import email_icon from "../../assets/email.svg";
 import phone_icon from "../../assets/phone.svg";
 import location_icon from "../../assets/location.svg";
 import "./contact.css";
+import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 
 const Contact = () => {
 
@@ -31,8 +32,8 @@ const Contact = () => {
   return (
     <div id="contacto" className="contact">
       <div className="contact-title">
-        <h1>Contáctanos</h1>
-        {/* <img src="" alt="" /> */}
+        <h1>Contáctame</h1>
+        <img src= {logo_menu} alt="logo_menu" />
       </div>
       <div className="contact-section">
         <div className="contact-left">

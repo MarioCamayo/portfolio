@@ -2,6 +2,7 @@
 import mywork_data from '../../assets/myword_data'
 import './mywork.css'
 import flechaDerecha from '../../assets/flecha-derecha.svg'
+import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 
 
 const MyWork = () => {
@@ -9,7 +10,7 @@ const MyWork = () => {
     <div id='portafolio' className="mywork">
       <div className="mywork-title">
         <h1>Mis Proyectos</h1>
-        {/* <img src={theme-pattern} alt="" />  */}
+        <img src={logo_menu} alt="Logo" /> 
       </div>
       <div className="mywork-container">
         {mywork_data.map((work, id)=>
