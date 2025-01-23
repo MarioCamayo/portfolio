@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div id="contacto" className="contact">
       <div className="contact-title">
-        <h1>Contáctame</h1>
+        <h1>Contáctame hoy en el Perú</h1>
         <img src= {logo_menu} alt="logo_menu" />
       </div>
       <div className="contact-section">
