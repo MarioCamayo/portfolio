@@ -5,8 +5,7 @@ import "./contact.css";
 import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 
 
-// eslint-disable-next-line no-undef
-const apiKey = process.env.REACT_APP_WEB3FORMS_API_KEY;
+// const apiKey = process.env.REACT_APP_WEB3FORMS_API_KEY;
 
 
 const Contact = () => {
@@ -14,7 +13,7 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", apiKey);
+    formData.append("access_key", 'a9a3d29b-66ca-4bb9-b6bb-32ae057afe38');
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
