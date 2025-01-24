@@ -9,12 +9,17 @@
 
 .mywork-title{
   position: relative;
+
 }
 
 .mywork-title h1{
   font-size: 70px;
+  margin: 20px;
 }
 
+.mywork-title-img{
+  margin-right: 370px;
+}
 .mywork-title p{
   padding: 0px 30px;
   font-size: 80px;

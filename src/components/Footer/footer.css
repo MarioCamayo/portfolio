@@ -8,6 +8,7 @@
   .footer-img{
     width: 120px;
     margin-left: -20px;
+    cursor: pointer;
   }
   
   .footer-top{
@@ -16,7 +17,7 @@
   }
   
   .footer-top-left p{
-    font-size: 20px;
+    font-size: 18px;
     max-width: 400px;      
     margin-top: 15px;
   }
@@ -66,14 +67,19 @@
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .footer-bottom-left{
+    font-size: 14px;
   }
 
    .footer-bottom-right p:hover{
     /* transform:scale(1.1);
     transition: 0.3s; */
     color: #ea4c9b;
-    border-bottom: 1px solid #5c1d54;
+    cursor: pointer;
+    /* border-bottom: 1px solid #5c1d54; */
   } 
 
   .footer-email-input:hover{

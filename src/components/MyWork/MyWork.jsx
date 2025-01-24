@@ -10,7 +10,7 @@ const MyWork = () => {
     <div id='portafolio' className="mywork">
       <div className="mywork-title">
         <h1>Mis Proyectos</h1>
-        <img src={logo_menu} alt="Logo" /> 
+        <img className='mywork-title-img' src={logo_menu} alt="Logo" /> 
       </div>
       <div className="mywork-container">
         {mywork_data.map((work, id)=>

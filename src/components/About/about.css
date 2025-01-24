@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    /* margin: 80px 170px; */
+    margin: 80px 150px;
 }
 
 .about-title{
@@ -48,8 +49,43 @@
     font-size: 24px;
     /* font-weight: 700; */
     line-height: 40px;
-    color: #D8D8D8; 
+    /* color: #D8D8D8;  */
     color: #fff;   /* font-family:Arial, Helvetica, sans-serif */
+}   
+
+.about-para2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -200px;
+    font-size: 25px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.about-right-gradient-text{
+    font-size: 26px;
+    /* background: linear-gradient(270deg, #DF8908 50.41%, 
+    #B415FF 100%); */
+    background: linear-gradient(270deg, #f6fa7b 50.41%, 
+    #f7d306ee 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+}
+
+.about-right-title{
+    /* color: rgb(243, 99, 238); */
+    color: rgba(123, 191, 250, 0.962);
+}
+
+.about-right-lenguaje{
+    /* padding: 10px; */
+    word-spacing: 12px;
+    color: rgb(49, 200, 246);
+    color: rgb(246, 49, 240);
 }
 
 .about-skills{
@@ -65,6 +101,12 @@
     text-align: center;
 }
 
+.about-skill-logo{
+    width: 80px;
+    margin-top: -30px;
+    margin-left: 420px;
+}
+
 .about-skill-icons{
     /* padding-right: 60px; */
     display: flex;
@@ -72,8 +114,9 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 70px;
+    
 }
 
 .about-skill{
@@ -175,7 +218,7 @@
     }
 
     .about-para{
-        font-size: 20px; 
+        font-size: 25px; 
         line-height: 32px; 
   }
   .about-skill{

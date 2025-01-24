@@ -24,24 +24,35 @@ const About = () => {
         </div>
         <div className='about-sections'>
             <div className="about-left">
-                <img className='about-profile' src={profile_img} alt="image of profile" />
+                {/* <img className='about-profile' src={profile_img} alt="image of profile" /> */}
             </div>
 
 
             <div className="about-right">
                 <div className='about-para'>
-                    <p> ¡Hola! Soy un Desarrollador Frontend enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. Aunque estoy dando mis primeros pasos en la industria tecnológica, he dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
+                    <p> ¡Hola! Soy un <strong className='about-right-gradient-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. Aunque estoy dando mis primeros pasos en la industria tecnológica, he dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
                 
                     </p>
+                 {/* </div> */}
+                 {/* <div className='about-para2'> */}
+                    <br />
+                     
+                    <p>Tengo conocimientos en las siguientes Tecnologías como: <span className='about-right-lenguaje'>HTML, CSS, JAVASCRIPT, REACT, NODEJS, GIT,  TAILWINDCSS, BOOTSTRAP, MYSQL, MONGODB </span>y en la metodología ágil <span className='about-right-lenguaje'>SCRUM.</span> 
+                   </p>
+                        
+                       
+                    <br />
                     <p> He desarrollado tres proyectos principales como parte de mi portafolio, donde he puesto en práctica mis habilidades:
                     <br />
                     <br />
-                    <strong>Aplicación de reservas de citas médicas:</strong>  Una plataforma que facilita la gestión de citas, con un enfoque en la experiencia del usuario y funcionalidades como recordatorios y cambios de horarios.
+                    <strong className='about-right-title'>Aplicación de reservas de citas médicas:</strong><br /> Una plataforma que facilita la gestión de citas, puedes elegir a un doctor y elegir el horario de atención con un enfoque en la experiencia del usuario.
+                    <br /><br />
+                    <strong  className='about-right-title'>Aplicación de pedidos de comida:</strong><br /> Un sistema dinámico donde los usuarios pueden explorar opciones de comida, realizar pedidos y gestionar sus compras.
                     <br />
-                    <strong>Aplicación de pedidos de comida:</strong> Un sistema dinámico donde los usuarios pueden explorar opciones de comida, realizar pedidos y gestionar sus compras.
                     <br />
-                    <strong> Ecommerce de ropa:</strong> Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras, implementando un flujo completo de compra para los usuarios.
+                    <strong  className='about-right-title'>Tienda virtual de ropa:</strong><br /> Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras.
                     </p>
+                {/* </div> */}
                   </div>
             </div>
           </div>

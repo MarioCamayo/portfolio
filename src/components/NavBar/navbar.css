@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 115px;
+    /* position: fixed; */
 }
 
 .nav-menu{
@@ -67,11 +68,15 @@
         display: none;
         
     }
+
+   
+
     .nav-mob-open{
         display: block;
         position: fixed;
         right: 30px;
     }
+
     .nav-mob-close{
         display: block;
         position: relative;
