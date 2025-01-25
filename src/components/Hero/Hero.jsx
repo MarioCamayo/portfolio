@@ -18,7 +18,13 @@ const Hero = () => {
             
           </div>
           <div className="hero-resume">
-            Descarga mi CV
+          <a 
+              href="/cv.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" >
+               Descarga mi CV
+
+            </a>
           </div>
 
         </div>
