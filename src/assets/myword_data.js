@@ -1,4 +1,4 @@
-import project1_img from '../assets/project_1.jpg'
+import project1_img from '../assets/imagen-miropaestaaqui.png'
 import project2_img from '../assets/foto_portada_app_reserva_tu_cita_medica.png'
 import project3_img from '../assets/project_3.jpg'
 // import project4_img from '../assets/project_4.jpg'
@@ -9,7 +9,8 @@ const mywork_data = [
   {
     w_no:1,
     w_name:"web desing",
-    w_img:project1_img
+    w_img:project1_img,
+    w_link:"https://miropaestaaqui.vercel.app",
   },
   {
     w_no:2,
