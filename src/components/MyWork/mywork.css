@@ -47,6 +47,13 @@
   gap: 15px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.mywork-proyect img{
+  border: 2px solid #f810d1;
+  border-radius: 10px;
+
 }
 
 .mywork-proyect a{
@@ -54,7 +61,8 @@
   text-decoration: none;
   font-size: 18px;
   padding: 12px;
-  border: 1px solid #B415FF;
+  border: 2px solid #B415FF;
+  border-radius: 10px;
 
 }
 

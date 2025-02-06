@@ -1,7 +1,6 @@
 
 import mywork_data from '../../assets/myword_data'
 import './mywork.css'
-import flechaDerecha from '../../assets/flecha-derecha.svg'
 import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 
 
@@ -25,10 +24,10 @@ const MyWork = () => {
         )}
       </div>
     
-      <div className='mywork-showmore'>
+      {/* <div className='mywork-showmore'>
          <p>Ver Más</p>
          <img src= {flechaDerecha} alt="ícono de flecha derecha" />
-      </div>
+      </div> */}
         
 
     </div>

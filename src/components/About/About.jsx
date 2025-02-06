@@ -30,7 +30,7 @@ const About = () => {
 
             <div className="about-right">
                 <div className='about-para'>
-                    <p> ¡Hola! Soy un <strong className='about-right-gradient-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. Aunque estoy dando mis primeros pasos en la industria tecnológica, he dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
+                    <p> ¡Hola! Soy un <strong className='about-right-gradient-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. He dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
                 
                     </p>
                  {/* </div> */}

@@ -11,7 +11,7 @@ const Footer = () => {
           <p>¡Hola! Soy un Desarrollador Frontend enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. </p>
         </div>
 
-        <div className='footer-top-right'>
+        {/* <div className='footer-top-right'>
           <div className='footer-email-input'>
             <input type="email" placeholder="Ingresa tu correo" />
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             Subscribete
           </div>
         </div>
-      </div>
+      </div> */}
 
       <hr />
       <div className='footer-bottom'>

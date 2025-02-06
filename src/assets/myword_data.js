@@ -1,6 +1,6 @@
 import project1_img from '../assets/imagen-miropaestaaqui.png'
 import project2_img from '../assets/foto_portada_app_reserva_tu_cita_medica.png'
-import project3_img from '../assets/project_3.jpg'
+import project3_img from '../assets/banner_app_comida_rapida.png'
 // import project4_img from '../assets/project_4.jpg'
 // import project5_img from '../assets/project_5.jpg'
 // import project6_img from '../assets/project_6.jpg'
