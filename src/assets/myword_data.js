@@ -18,11 +18,11 @@ const mywork_data = [
     w_img:project2_img,
     w_link:'https://reservatucitamedica.vercel.app'
   },
-  {
-    w_no:3,
-    w_name:"web desing",
-    w_img:project3_img
-  },
+  // {
+  //   w_no:3,
+  //   w_name:"web desing",
+  //   w_img:project3_img
+  // },
   // {
   //   w_no:4,
   //   w_name:"web desing",

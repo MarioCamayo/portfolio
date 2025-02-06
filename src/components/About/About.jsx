@@ -11,6 +11,10 @@ import  logo_tailwindcss from '../../assets/logo_tailwindcss.png'
 import  logo_mongodb from '../../assets/logo_mongodb2.png'
 import  logo_bootstrap from '../../assets/logo_bootstrap2.png'
 import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
+import { FaLinkedin } from "react-icons/fa6"; 
+/* <FaLinkedin /> */
+ import { IoLogoGithub } from "react-icons/io5"; 
+/* <IoLogoGithub /> */
 
 
 import './about.css'
@@ -21,6 +25,22 @@ const About = () => {
         <div className="about-title">
             <h1>Acerca de mí</h1>
             <img src= {logo_menu} alt="logo_menu" />
+        </div>
+        <div className='about-icono'>
+            <div className='about-icono-github'>
+            <a target='_blank' href="https://github.com/mariocamayo"><span>GitHub</span>
+               <IoLogoGithub />
+            </a>
+            </div>
+            <div className='about-icono-linkedin'>
+                 <a target='_blank' href="https://linkedin.com/in/mariocamayo"><span>Linked</span>
+                <FaLinkedin />
+                </a>
+            </div>
+
+
+            {/* <img src=  alt=" Logo de Github" />
+            <img src= alt="Logo de Linkedin" /> */}
         </div>
         <div className='about-sections'>
             <div className="about-left">

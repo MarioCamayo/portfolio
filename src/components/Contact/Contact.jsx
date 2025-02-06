@@ -53,7 +53,7 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={phone_icon} alt="ícono de teléfono" />
-              <p>926853959</p>
+              <p>954428644</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="ícono de locación" />
