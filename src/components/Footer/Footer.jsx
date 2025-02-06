@@ -8,7 +8,8 @@ const Footer = () => {
       <div className='footer-top'>
         <div className='footer-top-left'>
           <img className='footer-img' src= {logo} alt="Logo del footer" />
-          <p>¡Hola! Soy un Desarrollador Frontend enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. </p>
+          <p>¡Hola! Soy un Desarrollador Frontend enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales.
+           </p>
         </div>
 
         {/* <div className='footer-top-right'>
@@ -18,8 +19,8 @@ const Footer = () => {
           <div className='footer-subscribe'>
             Subscribete
           </div>
-        </div>
-      </div> */}
+        </div>*/}
+      </div> 
 
       <hr />
       <div className='footer-bottom'>
