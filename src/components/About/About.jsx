@@ -10,7 +10,7 @@ import  logo_scrum from '../../assets/logo_scrum.png'
 import  logo_tailwindcss from '../../assets/logo_tailwindcss.png'
 import  logo_mongodb from '../../assets/logo_mongodb2.png'
 import  logo_bootstrap from '../../assets/logo_bootstrap2.png'
-import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
+// import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 import { FaLinkedin } from "react-icons/fa6"; 
 /* <FaLinkedin /> */
  import { IoLogoGithub } from "react-icons/io5"; 

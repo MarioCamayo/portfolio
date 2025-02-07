@@ -115,6 +115,8 @@
   .mywork{
     gap: 50px;
     margin: 50px 70px;
+    justify-content: center;
+    align-items: center;
     /* align-items: start; */
   }
 
@@ -136,8 +138,18 @@
   }
 
   .mywork-container{
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    /* grid-column: 1; */
+    /* place-items: center */
+
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 20px; */
+    /* justify-content: center;
+    align-content: center; */
+    /* place-items: center; 
+    margin: 0 auto; */
+
+    
   }
 
   .mywork-container img{
@@ -153,11 +165,16 @@
   }
 
   .mywork-proyect{
-    display: grid;
-    grid-column: 1;
+    display: grid; 
+    /* margin: 0 auto;  */
+    grid-column: 1; 
     width: 350px;
     height: 320px;
-    margin-left: 45px; 
+    /* flex-wrap: wrap; */
+    /* place-items: center; */
+    /* justify-content: center;
+    align-content: center; */
+    /* margin-left: 120px;  */
     
   }
 
