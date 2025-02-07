@@ -24,7 +24,7 @@ const About = () => {
     <div id='acerca' className='about'>
         <div className="about-title">
             <h1>Acerca de mí</h1>
-            <img src= {logo_menu} alt="logo_menu" />
+            {/* <img src= {logo_menu} alt="logo_menu" /> */}
         </div>
         <div className='about-icono'>
             <div className='about-icono-github'>
@@ -78,7 +78,7 @@ const About = () => {
           </div>
           <div className='about-skills'>
                     <h2 className='about-skill-title'>Mis Habilidades</h2>
-                    <img className='about-skill-logo' src= {logo_menu} alt="logo_menu" />
+                    {/* <img className='about-skill-logo' src= {logo_menu} alt="logo_menu" /> */}
 
                  <div className="about-skill-icons">
                         <div className='about-skill'>
@@ -142,7 +142,7 @@ const About = () => {
                             <img src= {logo_scrum} alt="logo_scrum" />
                             {/* <hr style={{width:'50%'}} /> */}
                         </div>
-                        
+
                   </div>
                 </div>
          
