@@ -8,4 +8,6 @@ body{
     background: #161513;
     color: white;
     font-family: 'outfit', sans-serif  ;
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
+
 }
