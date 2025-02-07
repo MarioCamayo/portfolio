@@ -191,8 +191,10 @@
     /* color: #5db4f7; */
     /* color: rgb(240, 159, 8); */
     color: orange;
+    /* font-weight: bold; */
+    color: rgb(255, 168, 7)
     /* color: rgba(12, 249, 47, 0.925); */
-    color: rgba(12, 249, 47, 0.993);
+    /* color: rgba(12, 249, 47, 0.993); */
     /* font-weight: bold; */
 
 
@@ -354,6 +356,7 @@
     .about-para{
         font-size: 28px; 
         line-height: 36px; 
+        text-align: center;
   }
   .about-skill{
         
