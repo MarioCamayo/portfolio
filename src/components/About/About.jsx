@@ -28,9 +28,9 @@ const About = () => {
         </div>
         <div className='about-icono'>
             <div className='about-icono-github'>
-            <a target='_blank' href="https://github.com/mariocamayo"><span>GitHub</span>
-               <IoLogoGithub />
-            </a>
+                <a target='_blank' href="https://github.com/mariocamayo"><span>GitHub</span>
+                <IoLogoGithub />
+                </a>
             </div>
             <div className='about-icono-linkedin'>
                  <a target='_blank' href="https://linkedin.com/in/mariocamayo"><span>Linked</span>
@@ -50,7 +50,7 @@ const About = () => {
 
             <div className="about-right">
                 <div className='about-para'>
-                    <p> ¡Hola! Soy un <strong className='about-right-gradient-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. He dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
+                    <p> ¡Hola! Soy un <strong className='about-right-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. He dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
                 
                     </p>
                  {/* </div> */}
@@ -79,58 +79,70 @@ const About = () => {
           <div className='about-skills'>
                     <h2 className='about-skill-title'>Mis Habilidades</h2>
                     <img className='about-skill-logo' src= {logo_menu} alt="logo_menu" />
-                 <div className="about-skill-icons">
-                    <div className='about-skill'>
-                       <p>HTML</p>
-                       <img src={logo_html} alt="logo html" />
-                        {/* <p>HTML & CSS</p><hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                       <p>CSS</p>
-                       <img src={logo_css} alt="logo_css" />
-                        {/* <p>HTML & CSS</p><hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                       <p>JAVASCRIPT</p>
-                       <img  src= {logo_javascript} alt="logo_javascript" />
-                       {/* <hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                        <p>REACT JS</p>
-                        {/* <hr style={{width:'50%'}} /> */}
-                        <img  src= {logo_react} alt="logo_react" />
 
-                    </div>
-                    <div className='about-skill'>
-                       <p>NODE JS</p>
-                       <img src= {logo_node} alt="logo_node" />
-                       {/* <hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                        <p>GIT</p>
-                        <img src= {logo_git} alt="logo_git" />
-                        {/* <hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                       <p>TAILWINDCSS</p>
-                       <img src= {logo_tailwindcss} alt="logo_tailwind" />
-                       {/* <hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                       <p>BOOTSTRAP</p>
-                       <img src= {logo_bootstrap} alt="logo_bootstrap" />
-                       {/* <hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                       <p>MONGODB</p>
-                       <img src= {logo_mongodb} alt="logo_mongodb" />
-                       {/* <hr style={{width:'50%'}} /> */}
-                    </div>
-                    <div className='about-skill'>
-                      <p>SCRUM</p>
-                      <img src= {logo_scrum} alt="logo_scrum" />
-                      {/* <hr style={{width:'50%'}} /> */}
-                    </div>
+                 <div className="about-skill-icons">
+                        <div className='about-skill'>
+                            <p>HTML</p>
+                            <img src={logo_html} alt="logo html" />
+                                {/* <p>HTML & CSS</p><hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>CSS</p>
+                            <img src={logo_css} alt="logo_css" />
+                                {/* <p>HTML & CSS</p><hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>JAVASCRIPT</p>
+                            <img  src= {logo_javascript} alt="logo_javascript" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                         </div>
+
+                        <div className='about-skill'>
+                            <p>REACT JS</p>
+                            {/* <hr style={{width:'50%'}} /> */}
+                            <img  src= {logo_react} alt="logo_react" />
+
+                        </div>
+
+                            
+                        <div className='about-skill'>
+                            <p>NODE JS</p>
+                            <img src= {logo_node} alt="logo_node" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>GIT</p>
+                            <img src= {logo_git} alt="logo_git" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>TAILWINDCSS</p>
+                            <img src= {logo_tailwindcss} alt="logo_tailwind" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>BOOTSTRAP</p>
+                            <img src= {logo_bootstrap} alt="logo_bootstrap" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>MONGODB</p>
+                            <img src= {logo_mongodb} alt="logo_mongodb" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                        </div>
+
+                        <div className='about-skill'>
+                            <p>SCRUM</p>
+                            <img src= {logo_scrum} alt="logo_scrum" />
+                            {/* <hr style={{width:'50%'}} /> */}
+                        </div>
+                        
                   </div>
                 </div>
          
