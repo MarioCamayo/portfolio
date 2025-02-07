@@ -446,6 +446,24 @@
     .about{
         margin: 0 auto;
     }
+
+    .about-skill{
+        margin: 0 auto;
+    }
+
+    .about-para p{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 26px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+
+    }
+
+    .about-proyect{
+        margin: 0 auto;
+    }
 }
 
  
