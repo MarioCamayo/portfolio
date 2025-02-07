@@ -422,6 +422,7 @@
     }
 
     .about-proyect{
+        width: 80vw;
         border: 1px solid;
         display: flex;
         flex-direction: column;
