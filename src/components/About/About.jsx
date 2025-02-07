@@ -50,9 +50,11 @@ const About = () => {
 
             <div className="about-right">
                 <div className='about-para'>
-                    <p> ¡Hola! Soy un <strong className='about-right-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. He dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
-                
+                    <p> ¡Hola! Soy un <strong className='about-right-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. 
                     </p>
+                    {/* <p> ¡Hola! Soy un <strong className='about-right-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. He dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
+                    </p> */}
+                
                  {/* </div> */}
                  {/* <div className='about-para2'> */}
                     <br />
@@ -62,16 +64,27 @@ const About = () => {
                         
                        
                     <br />
-                    <p> He desarrollado tres proyectos principales como parte de mi portafolio, donde he puesto en práctica mis habilidades:
+                    <p> He desarrollado tres proyectos principales como parte de mi portafolio, donde he puesto en práctica mis habilidades:</p>
                     <br />
+                
+                    <section className='about-proyect'>
+                       <strong className='about-right-title'>Aplicación de reservas de citas médicas:</strong>
+                        <br />
+                        <p>  Una plataforma que facilita la gestión de citas, puedes elegir a un doctor y elegir el horario de atención con un enfoque en la experiencia del usuario.
+                         </p>
+                    </section>
+                        <br />
+                    <section className='about-proyect'>
+                        <br />
+                        <strong  className='about-right-title'>Aplicación de pedidos de comida:</strong><br /><p> Un sistema dinámico donde los usuarios pueden explorar opciones de comida, realizar pedidos y gestionar sus compras.
+                        </p>
+                     </section>
                     <br />
-                    <strong className='about-right-title'>Aplicación de reservas de citas médicas:</strong><br /> Una plataforma que facilita la gestión de citas, puedes elegir a un doctor y elegir el horario de atención con un enfoque en la experiencia del usuario.
-                    <br /><br />
-                    <strong  className='about-right-title'>Aplicación de pedidos de comida:</strong><br /> Un sistema dinámico donde los usuarios pueden explorar opciones de comida, realizar pedidos y gestionar sus compras.
-                    <br />
-                    <br />
-                    <strong  className='about-right-title'>Tienda virtual de ropa:</strong><br /> Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras.
+                
+                    <section className='about-proyect'>
+                    <strong  className='about-right-title'>Tienda virtual de ropa:</strong><br /> <p>Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras.
                     </p>
+                    </section>
                 {/* </div> */}
                   </div>
             </div>

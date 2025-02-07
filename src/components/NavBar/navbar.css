@@ -62,15 +62,29 @@
 @media (max-width:768px){
     .navbar{
         margin: 20px 50px;
+        /* position: absolute; */
+        /* width: 100vw; */
+        /* background-color: #e11010; */
+        /* margin: 20px 0px; */
+        /* height: 50px; */
         /* position: fixed; */
-        top: 0;
-        left: 0;
+        /* top: 0;
+        left: 0; */
         /* margin-top: 100px; */
+        /* background-color: rgb(56, 56, 191); */
     }
     
     .nav-connect{
         display: none;
         
+    }
+
+    .navbar-logo{
+        justify-content: center;
+        /* margin: 20px 0; */
+        /* position: fixed; */
+        margin-left: -15px;
+
     }
 
    
@@ -96,7 +110,7 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color: #1f0016;
+        background-color: #f41ab6;
         width: 350px;
         height: 100%;
         z-index: 2;
