@@ -357,6 +357,14 @@
   .about-achievement{
     justify-content: space-between; 
     }
+
+   .about-icono{
+        /* display: flex; */
+        margin-top: -50px;
+        gap: 20px;
+        
+        
+    }
 }
 
  
