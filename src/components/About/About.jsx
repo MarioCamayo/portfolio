@@ -77,7 +77,7 @@ const About = () => {
             </div>
           </div>
           <div className='about-skills'>
-                    <h2 className='about-skill-title'>Mis Habilidades</h2>
+                    <h2 className='about-skill-title'>Mis <br /> Habilidades</h2>
                     {/* <img className='about-skill-logo' src= {logo_menu} alt="logo_menu" /> */}
 
                  <div className="about-skill-icons">
