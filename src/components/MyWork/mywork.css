@@ -185,5 +185,21 @@
 
   }
 }
+
+@media (max-width: 480px) {
+  .mywork {
+    /* place-content: center; */
+    justify-content: center;
+   align-items: center;
+   text-align: center; 
+  }
+
+  .mywork-container{
+    /* justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    /* place-items: center;  */
+  }
+}
     
     
