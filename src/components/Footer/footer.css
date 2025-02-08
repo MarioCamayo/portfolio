@@ -117,7 +117,7 @@
 
     .footer-bottom-right{
       flex-direction: column;
-      margin-left: -325px;
+      /* margin-left: -325px; */
       gap: 15px;
       justify-content: left;
       /* margin: 0 auto; */
