@@ -146,6 +146,13 @@
    } 
 
    @media(max-width:480px) {
+
+    .footer{
+      /* flex-direction: row;
+      justify-content: space-between; */
+      margin: 50px 70px;
+      /* width: 100%; */
+    }
     .footer-bottom{
       /* flex-wrap: wrap; */
       text-align: center;
