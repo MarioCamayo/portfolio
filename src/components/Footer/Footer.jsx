@@ -26,7 +26,8 @@ const Footer = () => {
 
       {/* <hr /> */}
       <div className='footer-bottom'>
-        <p className='footer-bottom-left'>Copyright © 2025 Mario Camayo. Todos los derechos reservados.</p>
+        <p className='footer-bottom-left'>Copyright © 2025 Mario Camayo. Todos los derechos reservados.
+        </p>
         {/* <div className='footer-bottom-right'>
           <p>Inicio</p>
           <p>Acerca de mí</p>
