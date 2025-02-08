@@ -4,7 +4,9 @@ import './footer.css'
 
 const Footer = () => {
   return (
+    
     <div className='footer'>
+      <hr />
       <div className='footer-top'>
         <div className='footer-top-left'>
           <img className='footer-img' src= {logo} alt="Logo del footer" />
@@ -22,13 +24,16 @@ const Footer = () => {
         </div>*/}
       </div> 
 
-      <hr />
+      {/* <hr /> */}
       <div className='footer-bottom'>
         <p className='footer-bottom-left'>Copyright © 2025 Mario Camayo. Todos los derechos reservados.</p>
         <div className='footer-bottom-right'>
-          <p>Política de Privacidad</p>
-          <p>Contáctate Conmigo</p>
-          <p>Política de Cookies</p>
+          <p>Inicio</p>
+          <p>Acerca de mí</p>
+          <p>Potafolio</p>
+          <p>Contácto</p>
+          {/* <p>Contáctate Conmigo</p>
+          <p>Política de Cookies</p> */}
         </div>
       </div>
 

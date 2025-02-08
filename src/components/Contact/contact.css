@@ -183,4 +183,32 @@
 
   
 }
+
+@media(max-width:480px){
+
+  .contact{
+    margin: 40px 70px;
+
+
+    /* margin: 0 auto; */
+  }
+  .contact-title{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-left h1{
+    font-size: 40px;
+  }
+
+  .contact-left p{
+    font-size: 22px;
+  }
+
+  .contact-right input{
+    width: 100%;
+    font-size: 20px;
+  }
+
   
+  
+}
