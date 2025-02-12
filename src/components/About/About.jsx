@@ -12,9 +12,7 @@ import  logo_mongodb from '../../assets/logo_mongodb2.png'
 import  logo_bootstrap from '../../assets/logo_bootstrap2.png'
 // import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 import { FaLinkedin } from "react-icons/fa6"; 
-/* <FaLinkedin /> */
  import { IoLogoGithub } from "react-icons/io5"; 
-/* <IoLogoGithub /> */
 
 
 import './about.css'
@@ -75,7 +73,7 @@ const About = () => {
                     </section>
                         <br />
                     <section className='about-proyect'>
-                        <br />
+                        
                         <strong  className='about-right-title'>Aplicación de pedidos de comida:</strong><br /><p> Un sistema dinámico donde los usuarios pueden explorar opciones de comida, realizar pedidos y gestionar sus compras.
                         </p>
                      </section>
