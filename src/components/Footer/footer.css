@@ -61,7 +61,6 @@
     display: flex;
     justify-content: center;
     font-size: 18px;
-    /* text-align: center; */
   }
 
   .footer-bottom-right{
@@ -77,11 +76,8 @@
   }
 
    .footer-bottom-right p:hover{
-    /* transform:scale(1.1);
-    transition: 0.3s; */
     color: #ea4c9b;
     cursor: pointer;
-    /* border-bottom: 1px solid #5c1d54; */
   } 
 
   .footer-email-input:hover{
@@ -92,22 +88,17 @@
     transform:scale(1.1);
     transition: 0.3s;
 
-    /* background: linear-gradient(264deg, #B415FF -5.09%, #DF8908 106.28%); */
   }
 
   @media(max-width:768px){
     .footer{
-      /* flex-direction: row;
-      justify-content: space-between; */
       margin: 50px 70px;
-      /* width: 100%; */
     }
 
     .footer-top{
       flex-direction: column;
       gap: 50px;
-      /* text-align: center; */
-      /* width: 100vw; */
+      
     }
 
     .footer-bottom{
@@ -116,35 +107,22 @@
       margin-bottom: 50px;
       justify-content: center;
       align-items: center;
-      width: 100vw;
-      /* width:100% ; */
-      /* text-align: center; */
+      
 
       
     }
 
     .footer-bottom-right{
       flex-direction: column;
-      /* margin-left: -325px; */
       gap: 15px;
-      /* justify-content: left; */
       margin: 0 auto;
-      /* justify-content: end; */
-      /* align-items: center; */
+     
       
     }
     .footer-bottom-left{
-      /* justify-content: center;
-      align-items: center; */
       font-size: 10px;
-      /* width: 100%; */
-      /* margin-right: 70px; */
-      /* text-align: center; */
+     
     }
-
-    /* .footer-bottom-right p{
-      text-align: center;
-    } */
 
     
    } 
@@ -152,23 +130,15 @@
    @media(max-width:480px) {
 
     .footer{
-      /* flex-direction: row;
-      justify-content: space-between; */
       margin: 50px 20px;
-      /* width: 100%; */
     }
     .footer-bottom{
       flex-direction: column;
-      /* flex-wrap: wrap; */
-      /* text-align: center; */
-      /* margin: 0 auto; */
+      
     }
     
     .footer-bottom-left{
-      /* margin: 0 auto; */
-      /* margin: 0 auto; */
       text-align: center;
-      /* font-size: 50px; */
       margin-right: 40px;
     }
     

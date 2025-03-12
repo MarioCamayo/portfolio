@@ -5,7 +5,6 @@
   justify-content: center;
   /* gap: 80px; */
   margin: 80px 170px;
-  /* padding: 0px 50px; */
 }
 
 .contact-title{
@@ -131,7 +130,6 @@
   .contact{
     gap: 50px;
     margin: 50px 70px;
-    /* align-items: start; */
   }
 
   .contact-title h1{
@@ -184,30 +182,7 @@
   
 }
 
-/*@media(max-width:480px){
 
-  .contact{
-    margin: 40px 70px;
-
-
-  }
-  .contact-title{
-    margin-top: 20px;
-    text-align: center;
-  }
-  .contact-left h1{
-    font-size: 40px;
-  }
-
-  .contact-left p{
-    font-size: 22px;
-  }
-
-  .contact-right input{
-    width: 100%;
-    font-size: 20px;
-  }
 
   
   
-}*/

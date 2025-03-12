@@ -12,3 +12,8 @@ body{
     overflow-x: hidden; /* Evita desplazamiento horizontal */
 
 }
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}

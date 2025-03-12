@@ -1,3 +1,4 @@
+
 import './navbar.css'
 import logo from '../../assets/logo_portafolio4-removebg-preview.png'
 import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
@@ -25,7 +26,10 @@ const NavBar = () => {
   return (
     <div className='navbar'>
         <img className='navbar-logo' src= {logo} alt="Logo" />
-        <img onClick={openMenu} className='nav-mob-open' src= {menu_open}     alt="menu_hamburguesa" />
+        <img 
+         onClick={openMenu} 
+         className='nav-mob-open' 
+         src= {menu_open}     alt="menu_hamburguesa" />
         <ul ref={menuRef} className='nav-menu'>
           <img onClick={closeMenu} className='nav-mob-close' src= {menu_close} alt="menu_close" />
             <li>
