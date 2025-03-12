@@ -29,12 +29,18 @@ const NavBar = () => {
         <img 
          onClick={openMenu} 
          className='nav-mob-open' 
-         src= {menu_open}     alt="menu_hamburguesa" />
+         src= {menu_open} alt="menu_hamburguesa" />
         <ul ref={menuRef} className='nav-menu'>
           <img onClick={closeMenu} className='nav-mob-close' src= {menu_close} alt="menu_close" />
             <li>
-              <AnchorLink className='anchor-link' offset={50} href='#inicio'>
-              <p onClick={()=>setMenu('inicio')}>Inicio</p>
+              <AnchorLink
+                className='anchor-link' 
+                offset={50} 
+                href='#inicio'>
+                <p 
+                onClick={()=>setMenu('inicio')
+                }>Inicio</p>
+
               </AnchorLink> 
               {menu === 'inicio' 
               ? <img src={logo_menu}
