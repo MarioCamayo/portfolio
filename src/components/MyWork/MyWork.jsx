@@ -1,7 +1,6 @@
 
 import mywork_data from '../../assets/myword_data'
 import './mywork.css'
-// import logo_menu from '../../assets/icono_menu2-removebg-preview.png'
 
 
 const MyWork = () => {
