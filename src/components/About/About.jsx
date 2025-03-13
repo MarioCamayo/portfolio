@@ -35,10 +35,6 @@ const About = () => {
                 <FaLinkedin />
                 </a>
             </div>
-
-
-            {/* <img src=  alt=" Logo de Github" />
-            <img src= alt="Logo de Linkedin" /> */}
         </div>
         <div className='about-sections'>
             <div className="about-left">
@@ -50,10 +46,9 @@ const About = () => {
                 <div className='about-para'>
                     <p> ¡Hola! Soy un <strong className='about-right-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. 
                     </p>
-                    {/* <p> ¡Hola! Soy un <strong className='about-right-text'> Desarrollador Frontend</strong> enfocado en React, con una gran pasión por crear aplicaciones web modernas y funcionales. He dedicado tiempo y esfuerzo a prepararme, aprendiendo y aplicando mis conocimientos en proyectos prácticos que destacan mi capacidad para resolver problemas reales con tecnología.
-                    </p> */}
+                    
                 
-                 {/* </div> */}
+                 
                  {/* <div className='about-para2'> */}
                     <br />
                      
@@ -62,7 +57,8 @@ const About = () => {
                         
                        
                     <br />
-                    <p> He desarrollado tres proyectos principales como parte de mi portafolio, donde he puesto en práctica mis habilidades:</p>
+                    <p> He desarrollado tres proyectos principales como parte de mi portafolio, donde he puesto en práctica mis habilidades:
+                    </p>
                     <br />
                 
                     <section className='about-proyect'>
