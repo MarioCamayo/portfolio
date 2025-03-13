@@ -38,10 +38,14 @@
 .hero-action{
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     gap: 25px;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 50px;
+    width: 50%;
+    padding-left: 55px;
+    /* padding: 0px 100px; */
 }
 
 .hero-connect{
@@ -49,6 +53,7 @@
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
     cursor: pointer;
     border-radius: 50px;
+    /* margin: 2px; */
 }
 
 .hero-resume{
