@@ -12,7 +12,9 @@ body{
     font-family: 'outfit', sans-serif  ;
     overflow-x: hidden; /* Evita desplazamiento horizontal */
 
-    padding-top: -80px; /* Ajusta el contenido para que no quede detrás del navbar */
+    padding-top: 80px; 
+    /* top:0px; */
+    /* Ajusta el contenido para que no quede detrás del navbar */
 
 }
 
