@@ -5,11 +5,14 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
     background: #161513;
     color: white;
     font-family: 'outfit', sans-serif  ;
     overflow-x: hidden; /* Evita desplazamiento horizontal */
+
+    padding-top: -80px; /* Ajusta el contenido para que no quede detrás del navbar */
 
 }
 
@@ -17,3 +20,7 @@ html, body {
     overflow-x: hidden;
     width: 100%;
 }
+
+html {
+    scroll-behavior: smooth;
+  }

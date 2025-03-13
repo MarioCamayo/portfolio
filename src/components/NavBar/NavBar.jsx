@@ -36,10 +36,9 @@ const NavBar = () => {
               <AnchorLink
                 className='anchor-link' 
                 offset={50} 
-                href='#inicio'>
-                <p 
-                onClick={()=>setMenu('inicio')
-                }>Inicio</p>
+                href='#inicio'
+                onClick={closeMenu }>
+                <p onClick={()=>setMenu('inicio')}>Inicio</p>
 
               </AnchorLink> 
               {menu === 'inicio' 
@@ -50,7 +49,12 @@ const NavBar = () => {
             </li>
 
             <li>
-              <AnchorLink className='anchor-link' offset={50} href='#acerca'>
+              <AnchorLink
+               className='anchor-link'
+                offset={50}
+                 href='#acerca'
+                 onClick={closeMenu }
+                 >
               <p onClick={()=> setMenu('acerca')}> Acerca de Mí</p>
               </AnchorLink>
               {menu === 'acerca'  
@@ -62,7 +66,12 @@ const NavBar = () => {
             {/* <li>Servicios</li> */}
 
             <li>
-              <AnchorLink className='anchor-link' offset={50} href='#portafolio'>
+              <AnchorLink
+               className='anchor-link'
+                offset={50} 
+                href='#portafolio'
+                onClick={closeMenu }
+                >
               <p onClick={()=> setMenu('portafolio')}> Portafolio</p>
               </AnchorLink>
               {menu === 'portafolio'
@@ -73,7 +82,12 @@ const NavBar = () => {
             </li>
 
             <li>
-              <AnchorLink className='anchor-link' offset={50} href='#contacto'>
+              <AnchorLink 
+              className='anchor-link'
+               offset={50} 
+               href='#contacto'
+               onClick={closeMenu }
+               >
               <p onClick={()=> setMenu('contacto')}>Contacto</p>
               </AnchorLink>
               {menu === 'contacto'
@@ -85,13 +99,16 @@ const NavBar = () => {
         </ul>
         <div
           className='nav-connect'>
-          <AnchorLink className='anchor-link' offset={50} href='#contacto'>
+          <AnchorLink
+           className='anchor-link'
+            offset={50} 
+            href='#contacto'>
           Contáctame
           </AnchorLink>
         </div>
 
     </div>
-  )
+  ) 
 }
 
 export default NavBar
