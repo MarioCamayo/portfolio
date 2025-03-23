@@ -68,15 +68,15 @@ const About = () => {
                          </p>
                     </section>
                         <br />
-                    <section className='about-proyect'>
+                    {/* <section className='about-proyect'>
                         
                         <strong  className='about-right-title'>Aplicación de pedidos de comida:</strong><br /><p> Un sistema dinámico donde los usuarios pueden explorar opciones de comida, realizar pedidos y gestionar sus compras.
                         </p>
-                     </section>
+                     </section> */}
                     <br />
                 
                     <section className='about-proyect'>
-                    <strong  className='about-right-title'>Tienda virtual de ropa:</strong><br /> <p>Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras.
+                    <strong  className='about-right-title'>E-Commerce de Ropa:</strong><br /> <p>Una tienda online que permite explorar productos, añadirlos al carrito y realizar compras.
                     </p>
                     </section>
                 {/* </div> */}

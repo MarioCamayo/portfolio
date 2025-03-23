@@ -9,11 +9,14 @@
     left: 0; /* Lo alinea a la izquierda */
     width: 100%; /* Ocupa todo el ancho */
     background-color: #161513; /* Asegura que el fondo sea visible si es transparente */
+    /*background-color: #201e1d Asegura que el fondo sea visible si es transparente
     /* background-color:rgb(7, 7, 7); */
      /* Asegura que el fondo sea visible si es transparente */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
     padding: 15px 120px; 
     /* Ajusta el espaciado para que no se vea pegado*/
+    /* border-bottom: white 1px solid; */
+    /* box-shadow: 0px 30px 50px rgba(240, 225, 225, 0.1); */
 /} 
 
 .nav-menu{

@@ -165,7 +165,9 @@
        
 }
 .about-proyect:hover{
-    background-color: #480346fc;
+    /* background-color: #480346fc;
+    background-color: #0a177cfc;
+    color: black; */
 }
 .about-proyect p{
     font-size: 30px;
