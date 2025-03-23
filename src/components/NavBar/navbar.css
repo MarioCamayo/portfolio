@@ -16,8 +16,7 @@
     padding: 15px 120px; 
     /* Ajusta el espaciado para que no se vea pegado*/
     /* border-bottom: white 1px solid; */
-    /* box-shadow: 0px 30px 50px rgba(240, 225, 225, 0.1); */
-/} 
+} 
 
 .nav-menu{
     display: flex;
@@ -73,7 +72,7 @@
 @media (max-width:768px){
     .navbar{
         /* margin: 20px 50px; */
-        padding: 10px 1px; 
+        padding: 10px 90px; 
 
        
     }
