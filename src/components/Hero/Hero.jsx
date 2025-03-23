@@ -16,7 +16,7 @@ const Hero = () => {
             
             <div className="hero-resume">
             <a 
-                href="/cv-mario-camayo.pdf" 
+                href="/Curriculum_vitae1_Mario_Camayo.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer" >
                 Descarga mi CV
