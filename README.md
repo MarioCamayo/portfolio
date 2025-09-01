@@ -1,8 +1,33 @@
-# React + Vite
+# Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con React para presentar mi portafolio profesional como desarrollador frontend.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Inicio:** Presentación breve y foto de perfil.
+- **Acerca de mí:** Información sobre experiencia, habilidades técnicas y formación.
+- **Portafolio:** Muestra de proyectos destacados con enlaces y capturas.
+- **Contacto:** Formulario para enviar mensajes directamente.
+- **Responsive:** Diseño adaptado para dispositivos móviles.
+
+## Tecnologías utilizadas
+
+- React
+- HTML, CSS, JavaScript
+- TailwindCSS
+- Node.js
+- Git
+
+
+
+
+## Ver mi portafolio:
+   
+   https://portafoliomariocamayo.vercel.app
+   
+## Uso
+
+Explora las diferentes secciones para conocer más sobre mi perfil profesional y proyectos. Utiliza el formulario de contacto para enviarme un mensaje.
+
+## Autor
+Mario Camayo
